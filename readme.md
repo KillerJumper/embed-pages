@@ -1,8 +1,8 @@
 ﻿<div align="center">
     <h1>Buttons Pages Discord</h1>
     <p>
-        <a href="https://www.youtube.com/channel/UCFJDHPs7eT60mR3WcqrzzAA"><img src="https://yt3.ggpht.com/yti/APfAmoF1398WBb_aPUS0t_aMCmGXmpgPDHVKAWD74rohrQ=s88-c-k-c0x00ffffff-no-rj-mo"/></a>
-        <a href="https://g-ca.fr/profil/killerjumper"><img src="https://cdn.discordapp.com/avatars/743886676878950479/1d8553d18ae568247200a2541efd019f.png?size=88"/></a>
+        <a href="https://www.youtube.com/channel/UCFJDHPs7eT60mR3WcqrzzAA"><img src="https://cdn.discordapp.com/avatars/482551411884818472/c70167d92c7cfb194a171d1d836de389.png?size=128"/></a>
+        <a href="https://g-ca.fr/profil/killerjumper"><img src="https://cdn.discordapp.com/avatars/743886676878950479/1d8553d18ae568247200a2541efd019f.png?size=128"/></a>
     </p>
     <p>
         <a><img src="https://media.discordapp.net/attachments/859518903566860299/867168561764237382/tumblr_ou44uhyE4X1uuhxwpo5_400.gif?width=296&height=240"/></a>
