@@ -1,8 +1,8 @@
-﻿<div align="center">
+<div align="center">
     <h1>Buttons Pages Discord</h1>
     <p>
-        <a href="https://www.youtube.com/channel/UCFJDHPs7eT60mR3WcqrzzAA"><img src="https://cdn.discordapp.com/avatars/482551411884818472/c70167d92c7cfb194a171d1d836de389.png?size=128"/></a>
-        <a href="https://g-ca.fr/profil/killerjumper"><img src="https://cdn.discordapp.com/avatars/743886676878950479/1d8553d18ae568247200a2541efd019f.png?size=128"/></a>
+        <a href="https://www.youtube.com/channel/UCFJDHPs7eT60mR3WcqrzzAA"><img src="https://yt3.ggpht.com/yti/APfAmoF1398WBb_aPUS0t_aMCmGXmpgPDHVKAWD74rohrQ=s88-c-k-c0x00ffffff-no-rj-mo"/></a>
+        <a href="https://g-ca.fr/profil/killerjumper"><img src="https://media.discordapp.net/attachments/859518903566860299/867168568940822528/final3000x3000.jpg?width=88&height=88"/></a>
     </p>
     <p>
         <a><img src="https://media.discordapp.net/attachments/859518903566860299/867168561764237382/tumblr_ou44uhyE4X1uuhxwpo5_400.gif?width=296&height=240"/></a>
@@ -15,38 +15,14 @@
 <br>
 
 ```sh
-npm i discord-buttons-page
-```
-
-## 📚 | Dependencies
-<br>
-
-If you have discord.js V12 install discord-buttons. 
-```sh
-npm i discord-buttons
-```
-
-Else if you have discord.js V13 install discord.js@dev.
-```sh
-npm i discord.js@dev
+npm i discord-buttons-page-v13
 ```
 
 ## 📜 | Setup
 
 <br>
 <div>
-    <h4>With Discord.js V12</h4>
-</div>
-
-```js
-const Discord = require('discord.js'); // Define discord.js module with npm i discord.js
-const bot = new Discord.Client(); // Creating client of discord.js
-const disbut = require('discord-buttons'); // Define discord-buttons module with npm i discord-buttons
-```
-
-<br>
-<div>
-    <h4>With Discord.js V13</h4>
+    <h4>Setup code</h4>
 </div>
 
 ```js
@@ -64,7 +40,7 @@ const bot = new Discord.Client({ // Creating client of discord.js
 </div>
 
 ```js
-const {createPages} = require('discord-buttons-page');
+const {createPages} = require('discord-buttons-page-v13');
 
 bot.on('message', message => {
     if(message.author.bot) return;
@@ -77,13 +53,18 @@ bot.on('message', message => {
     .setTitle('Exemple 2');
 
     const embeds = [embed1, embed2];
-    /*With Discord.js V13*/ const ButtonStyle = "PRIMARY"; // Or SECONDARY, SUCCESS, DANGER.
-    /*With Discord.js V12*/ const ButtonStyle = "red"; // Or green, blurple, gray.
+    const ButtonStyle = "PRIMARY"; // Or SECONDARY, SUCCESS, DANGER.
     const msg_delete = "!help for help command !"; // Défault : The embeds pages is closed !
 
-    createPages(bot, message, embeds, ButtonStyle, msg_delete);
+    createPages(bot, message, embeds, ButtonStyle, true, false, msg_delete);
 });
 ```
+
+<div align="center">
+    <img src="https://media.discordapp.net/attachments/823662921367158794/867574735625519104/unknown.png?width=300&height=121"/>
+    <img src="https://media.discordapp.net/attachments/823662921367158794/867574747021180928/unknown.png?width=274&height=121"/>
+</div>
+<br>
 
 ## 👨🏻‍🤝‍👨🏻 | Help
 <br>
